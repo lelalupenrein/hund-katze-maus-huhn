@@ -1,3 +1,98 @@
 *{
 	box-sizing: border-box;
+
+	}
+
+html,
+body{
+		background: orange;
+		height: 100%;
+		width: 100%;
+		font-family: Helvetica; Arial; sans-serif;
+		font-size: 100%;
+	}
+
+h1{
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+	margin: 1rem 0;
+	}
+
+.wrapper{
+max-width: 900px;
+background: lightgray;
+margin: 2rem auto;
+min-height: 300px;
+
+}
+
+
+
+.row{
+display: flex;
+}
+
+img{
+	width: 100%;
+}
+
+
+.tiere{
+	margin: 0 10px;
+position: relative;
+
+}
+
+
+p{
+position: absolute;
+background: white;
+padding: 5px;
+
+}
+
+#hund{
+	bottom: 0px;
+	left:0px;
+	z-index: 3;
+}
+
+#katze{
+	right: 0px;
+	bottom: 0px;
+		z-index: 3;
+}
+
+#maus{
+	top: 0px;
+	right: 0px;
+}
+
+#huhn{
+	top: 0px;
+	left: 0px;
+}
+
+
+span{
+	width: 100px;
+	height: 100px;
+	background: white;
+	border-radius: 50%;
+	display: block;
+	position: absolute;
+	z-index: 2;
+}
+
+#hundekringel{
+bottom: 0;
+left: 0;
+
+}
+
+#katzenkringel{
+bottom: 0;
+right: 0;
+
 }
